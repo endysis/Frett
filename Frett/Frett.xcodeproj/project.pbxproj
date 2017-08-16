@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		192897481B6BDFC500C576C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 192897471B6BDFC500C576C3 /* main.m */; };
+		1928974B1B6BDFC500C576C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1928974A1B6BDFC500C576C3 /* AppDelegate.m */; };
+		1928974E1B6BDFC500C576C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1928974D1B6BDFC500C576C3 /* ViewController.m */; };
+		192897511B6BDFC500C576C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1928974F1B6BDFC500C576C3 /* Main.storyboard */; };
+		192897531B6BDFC500C576C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192897521B6BDFC500C576C3 /* Images.xcassets */; };
+		192897561B6BDFC500C576C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 192897541B6BDFC500C576C3 /* LaunchScreen.xib */; };
+		192897621B6BDFC600C576C3 /* SerialNumberAppTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 192897611B6BDFC600C576C3 /* SerialNumberAppTestTests.m */; };
+		1928976D1B6BE8EE00C576C3 /* FenderMake.m in Sources */ = {isa = PBXBuildFile; fileRef = 1928976C1B6BE8EE00C576C3 /* FenderMake.m */; };
+		199C240B1B7502470044F738 /* serialAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 199C240A1B7502470044F738 /* serialAnswer.m */; };
+		199C24111B7510DC0044F738 /* Year.m in Sources */ = {isa = PBXBuildFile; fileRef = 199C24101B7510DC0044F738 /* Year.m */; };
+		19C48FC11B73AADA00D67A57 /* SerialEnterScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C48FC01B73AADA00D67A57 /* SerialEnterScreen.m */; };
+		19C997611B9A29EE005448D5 /* post2010FenderUsa.txt in Resources */ = {isa = PBXBuildFile; fileRef = 19C997601B9A29EE005448D5 /* post2010FenderUsa.txt */; };
+		19C997621B9A29EE005448D5 /* post2010FenderUsa.txt in Resources */ = {isa = PBXBuildFile; fileRef = 19C997601B9A29EE005448D5 /* post2010FenderUsa.txt */; };
+		19C997641B9A2B08005448D5 /* testFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 19C997631B9A2B08005448D5 /* testFile.txt */; };
+		19C997651B9A2B08005448D5 /* testFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 19C997631B9A2B08005448D5 /* testFile.txt */; };
+		19C997671B9A2D5C005448D5 /* japan-crafted.txt in Resources */ = {isa = PBXBuildFile; fileRef = 19C997661B9A2D5C005448D5 /* japan-crafted.txt */; };
+		19C997681B9A2D5C005448D5 /* japan-crafted.txt in Resources */ = {isa = PBXBuildFile; fileRef = 19C997661B9A2D5C005448D5 /* japan-crafted.txt */; };
+		19C9976A1B9A2EA6005448D5 /* post1976FenderUsa.txt in Resources */ = {isa = PBXBuildFile; fileRef = 19C997691B9A2EA6005448D5 /* post1976FenderUsa.txt */; };
+		19C9976B1B9A2EA6005448D5 /* post1976FenderUsa.txt in Resources */ = {isa = PBXBuildFile; fileRef = 19C997691B9A2EA6005448D5 /* post1976FenderUsa.txt */; };
+		19C9976D1B9A2F35005448D5 /* japan-made.txt in Resources */ = {isa = PBXBuildFile; fileRef = 19C9976C1B9A2F35005448D5 /* japan-made.txt */; };
+		19C9976E1B9A2F35005448D5 /* japan-made.txt in Resources */ = {isa = PBXBuildFile; fileRef = 19C9976C1B9A2F35005448D5 /* japan-made.txt */; };
+		19C997701B9A306D005448D5 /* mexico-made-post2010.txt in Resources */ = {isa = PBXBuildFile; fileRef = 19C9976F1B9A306D005448D5 /* mexico-made-post2010.txt */; };
+		19C997711B9A306D005448D5 /* mexico-made-post2010.txt in Resources */ = {isa = PBXBuildFile; fileRef = 19C9976F1B9A306D005448D5 /* mexico-made-post2010.txt */; };
+		19C997731B9A30D6005448D5 /* mexico-made.txt in Resources */ = {isa = PBXBuildFile; fileRef = 19C997721B9A30D6005448D5 /* mexico-made.txt */; };
+		19C997741B9A30D6005448D5 /* mexico-made.txt in Resources */ = {isa = PBXBuildFile; fileRef = 19C997721B9A30D6005448D5 /* mexico-made.txt */; };
+		19D055341B7CD3C9006875AF /* SerialCheckerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D055331B7CD3C9006875AF /* SerialCheckerDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1928975C1B6BDFC600C576C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1928973A1B6BDFC500C576C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 192897411B6BDFC500C576C3;
+			remoteInfo = SerialNumberAppTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		192897421B6BDFC500C576C3 /* Frett.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frett.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		192897461B6BDFC500C576C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		192897471B6BDFC500C576C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		192897491B6BDFC500C576C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1928974A1B6BDFC500C576C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1928974C1B6BDFC500C576C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1928974D1B6BDFC500C576C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		192897501B6BDFC500C576C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		192897521B6BDFC500C576C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		192897551B6BDFC500C576C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1928975B1B6BDFC600C576C3 /* FrettTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrettTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		192897601B6BDFC600C576C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		192897611B6BDFC600C576C3 /* SerialNumberAppTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerialNumberAppTestTests.m; sourceTree = "<group>"; };
+		1928976B1B6BE8EE00C576C3 /* FenderMake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FenderMake.h; sourceTree = "<group>"; };
+		1928976C1B6BE8EE00C576C3 /* FenderMake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FenderMake.m; sourceTree = "<group>"; };
+		199C24091B7502470044F738 /* serialAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = serialAnswer.h; sourceTree = "<group>"; };
+		199C240A1B7502470044F738 /* serialAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = serialAnswer.m; sourceTree = "<group>"; };
+		199C240F1B7510DC0044F738 /* Year.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Year.h; path = ../Year.h; sourceTree = "<group>"; };
+		199C24101B7510DC0044F738 /* Year.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Year.m; path = ../Year.m; sourceTree = "<group>"; };
+		19C48FBF1B73AADA00D67A57 /* SerialEnterScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialEnterScreen.h; sourceTree = "<group>"; };
+		19C48FC01B73AADA00D67A57 /* SerialEnterScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialEnterScreen.m; sourceTree = "<group>"; };
+		19C997601B9A29EE005448D5 /* post2010FenderUsa.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = post2010FenderUsa.txt; sourceTree = "<group>"; };
+		19C997631B9A2B08005448D5 /* testFile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testFile.txt; sourceTree = "<group>"; };
+		19C997661B9A2D5C005448D5 /* japan-crafted.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "japan-crafted.txt"; sourceTree = "<group>"; };
+		19C997691B9A2EA6005448D5 /* post1976FenderUsa.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = post1976FenderUsa.txt; sourceTree = "<group>"; };
+		19C9976C1B9A2F35005448D5 /* japan-made.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "japan-made.txt"; sourceTree = "<group>"; };
+		19C9976F1B9A306D005448D5 /* mexico-made-post2010.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mexico-made-post2010.txt"; sourceTree = "<group>"; };
+		19C997721B9A30D6005448D5 /* mexico-made.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mexico-made.txt"; sourceTree = "<group>"; };
+		19D055321B7CD3C9006875AF /* SerialCheckerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialCheckerDelegate.h; sourceTree = "<group>"; };
+		19D055331B7CD3C9006875AF /* SerialCheckerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialCheckerDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1928973F1B6BDFC500C576C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		192897581B6BDFC600C576C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		192897391B6BDFC500C576C3 = {
+			isa = PBXGroup;
+			children = (
+				192897441B6BDFC500C576C3 /* SerialNumberAppTest */,
+				1928975E1B6BDFC600C576C3 /* SerialNumberAppTestTests */,
+				192897431B6BDFC500C576C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		192897431B6BDFC500C576C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				192897421B6BDFC500C576C3 /* Frett.app */,
+				1928975B1B6BDFC600C576C3 /* FrettTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		192897441B6BDFC500C576C3 /* SerialNumberAppTest */ = {
+			isa = PBXGroup;
+			children = (
+				192897491B6BDFC500C576C3 /* AppDelegate.h */,
+				1928974A1B6BDFC500C576C3 /* AppDelegate.m */,
+				1928974C1B6BDFC500C576C3 /* ViewController.h */,
+				1928974D1B6BDFC500C576C3 /* ViewController.m */,
+				1928974F1B6BDFC500C576C3 /* Main.storyboard */,
+				19C48FBF1B73AADA00D67A57 /* SerialEnterScreen.h */,
+				19C48FC01B73AADA00D67A57 /* SerialEnterScreen.m */,
+				199C24091B7502470044F738 /* serialAnswer.h */,
+				199C240A1B7502470044F738 /* serialAnswer.m */,
+				1928976B1B6BE8EE00C576C3 /* FenderMake.h */,
+				1928976C1B6BE8EE00C576C3 /* FenderMake.m */,
+				199C240F1B7510DC0044F738 /* Year.h */,
+				199C24101B7510DC0044F738 /* Year.m */,
+				19D055321B7CD3C9006875AF /* SerialCheckerDelegate.h */,
+				19D055331B7CD3C9006875AF /* SerialCheckerDelegate.m */,
+				192897521B6BDFC500C576C3 /* Images.xcassets */,
+				192897541B6BDFC500C576C3 /* LaunchScreen.xib */,
+				192897451B6BDFC500C576C3 /* Supporting Files */,
+			);
+			path = SerialNumberAppTest;
+			sourceTree = "<group>";
+		};
+		192897451B6BDFC500C576C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19C997631B9A2B08005448D5 /* testFile.txt */,
+				19C997691B9A2EA6005448D5 /* post1976FenderUsa.txt */,
+				19C997601B9A29EE005448D5 /* post2010FenderUsa.txt */,
+				19C997661B9A2D5C005448D5 /* japan-crafted.txt */,
+				19C9976C1B9A2F35005448D5 /* japan-made.txt */,
+				19C997721B9A30D6005448D5 /* mexico-made.txt */,
+				19C9976F1B9A306D005448D5 /* mexico-made-post2010.txt */,
+				192897461B6BDFC500C576C3 /* Info.plist */,
+				192897471B6BDFC500C576C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1928975E1B6BDFC600C576C3 /* SerialNumberAppTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				192897611B6BDFC600C576C3 /* SerialNumberAppTestTests.m */,
+				1928975F1B6BDFC600C576C3 /* Supporting Files */,
+			);
+			path = SerialNumberAppTestTests;
+			sourceTree = "<group>";
+		};
+		1928975F1B6BDFC600C576C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				192897601B6BDFC600C576C3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		192897411B6BDFC500C576C3 /* Frett */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 192897651B6BDFC600C576C3 /* Build configuration list for PBXNativeTarget "Frett" */;
+			buildPhases = (
+				1928973E1B6BDFC500C576C3 /* Sources */,
+				1928973F1B6BDFC500C576C3 /* Frameworks */,
+				192897401B6BDFC500C576C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Frett;
+			productName = SerialNumberAppTest;
+			productReference = 192897421B6BDFC500C576C3 /* Frett.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1928975A1B6BDFC600C576C3 /* FrettTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 192897681B6BDFC600C576C3 /* Build configuration list for PBXNativeTarget "FrettTests" */;
+			buildPhases = (
+				192897571B6BDFC600C576C3 /* Sources */,
+				192897581B6BDFC600C576C3 /* Frameworks */,
+				192897591B6BDFC600C576C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1928975D1B6BDFC600C576C3 /* PBXTargetDependency */,
+			);
+			name = FrettTests;
+			productName = SerialNumberAppTestTests;
+			productReference = 1928975B1B6BDFC600C576C3 /* FrettTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1928973A1B6BDFC500C576C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "ÉNDY Development";
+				TargetAttributes = {
+					192897411B6BDFC500C576C3 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 64VZ4VAQTL;
+					};
+					1928975A1B6BDFC600C576C3 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 64VZ4VAQTL;
+						TestTargetID = 192897411B6BDFC500C576C3;
+					};
+				};
+			};
+			buildConfigurationList = 1928973D1B6BDFC500C576C3 /* Build configuration list for PBXProject "Frett" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 192897391B6BDFC500C576C3;
+			productRefGroup = 192897431B6BDFC500C576C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				192897411B6BDFC500C576C3 /* Frett */,
+				1928975A1B6BDFC600C576C3 /* FrettTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		192897401B6BDFC500C576C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C997641B9A2B08005448D5 /* testFile.txt in Resources */,
+				192897511B6BDFC500C576C3 /* Main.storyboard in Resources */,
+				19C9976D1B9A2F35005448D5 /* japan-made.txt in Resources */,
+				192897561B6BDFC500C576C3 /* LaunchScreen.xib in Resources */,
+				19C997701B9A306D005448D5 /* mexico-made-post2010.txt in Resources */,
+				19C997671B9A2D5C005448D5 /* japan-crafted.txt in Resources */,
+				19C997731B9A30D6005448D5 /* mexico-made.txt in Resources */,
+				19C9976A1B9A2EA6005448D5 /* post1976FenderUsa.txt in Resources */,
+				19C997611B9A29EE005448D5 /* post2010FenderUsa.txt in Resources */,
+				192897531B6BDFC500C576C3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		192897591B6BDFC600C576C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C997651B9A2B08005448D5 /* testFile.txt in Resources */,
+				19C997711B9A306D005448D5 /* mexico-made-post2010.txt in Resources */,
+				19C9976B1B9A2EA6005448D5 /* post1976FenderUsa.txt in Resources */,
+				19C997741B9A30D6005448D5 /* mexico-made.txt in Resources */,
+				19C9976E1B9A2F35005448D5 /* japan-made.txt in Resources */,
+				19C997681B9A2D5C005448D5 /* japan-crafted.txt in Resources */,
+				19C997621B9A29EE005448D5 /* post2010FenderUsa.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1928973E1B6BDFC500C576C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1928974E1B6BDFC500C576C3 /* ViewController.m in Sources */,
+				1928976D1B6BE8EE00C576C3 /* FenderMake.m in Sources */,
+				19D055341B7CD3C9006875AF /* SerialCheckerDelegate.m in Sources */,
+				1928974B1B6BDFC500C576C3 /* AppDelegate.m in Sources */,
+				199C240B1B7502470044F738 /* serialAnswer.m in Sources */,
+				192897481B6BDFC500C576C3 /* main.m in Sources */,
+				199C24111B7510DC0044F738 /* Year.m in Sources */,
+				19C48FC11B73AADA00D67A57 /* SerialEnterScreen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		192897571B6BDFC600C576C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192897621B6BDFC600C576C3 /* SerialNumberAppTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1928975D1B6BDFC600C576C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 192897411B6BDFC500C576C3 /* Frett */;
+			targetProxy = 1928975C1B6BDFC600C576C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1928974F1B6BDFC500C576C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				192897501B6BDFC500C576C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		192897541B6BDFC500C576C3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				192897551B6BDFC500C576C3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		192897631B6BDFC600C576C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: O'Shea Douglas (64VZ4VAQTL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: O'Shea Douglas (64VZ4VAQTL)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "2d1b5221-2516-41b4-82ed-6847079ebdc5";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		192897641B6BDFC600C576C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: O'Shea Douglas (64VZ4VAQTL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: O'Shea Douglas (64VZ4VAQTL)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "2d1b5221-2516-41b4-82ed-6847079ebdc5";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		192897661B6BDFC600C576C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: O'Shea Douglas (64VZ4VAQTL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: O'Shea Douglas (64VZ4VAQTL)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				INFOPLIST_FILE = SerialNumberAppTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Frett;
+				PROVISIONING_PROFILE = "1d8e336b-c09c-4ead-b705-9339c8a0c0c9";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		192897671B6BDFC600C576C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: O'Shea Douglas (64VZ4VAQTL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: O'Shea Douglas (64VZ4VAQTL)";
+				INFOPLIST_FILE = SerialNumberAppTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Frett;
+				PROVISIONING_PROFILE = "1d8e336b-c09c-4ead-b705-9339c8a0c0c9";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		192897691B6BDFC600C576C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SerialNumberAppTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = FrettTests;
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frett.app/Frett";
+			};
+			name = Debug;
+		};
+		1928976A1B6BDFC600C576C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SerialNumberAppTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = FrettTests;
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frett.app/Frett";
+			};
+			name = Release;
+		};
+		1948B5DF1B9DD13F002CE5D3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: O'Shea Douglas (64VZ4VAQTL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: O'Shea Douglas (64VZ4VAQTL)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "2d1b5221-2516-41b4-82ed-6847079ebdc5";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		1948B5E01B9DD13F002CE5D3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: O'Shea Douglas (64VZ4VAQTL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: O'Shea Douglas (64VZ4VAQTL)";
+				INFOPLIST_FILE = SerialNumberAppTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Frett;
+				PROVISIONING_PROFILE = "1d8e336b-c09c-4ead-b705-9339c8a0c0c9";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+		1948B5E11B9DD13F002CE5D3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SerialNumberAppTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = FrettTests;
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frett.app/Frett";
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1928973D1B6BDFC500C576C3 /* Build configuration list for PBXProject "Frett" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				192897631B6BDFC600C576C3 /* Debug */,
+				192897641B6BDFC600C576C3 /* Release */,
+				1948B5DF1B9DD13F002CE5D3 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		192897651B6BDFC600C576C3 /* Build configuration list for PBXNativeTarget "Frett" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				192897661B6BDFC600C576C3 /* Debug */,
+				192897671B6BDFC600C576C3 /* Release */,
+				1948B5E01B9DD13F002CE5D3 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		192897681B6BDFC600C576C3 /* Build configuration list for PBXNativeTarget "FrettTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				192897691B6BDFC600C576C3 /* Debug */,
+				1928976A1B6BDFC600C576C3 /* Release */,
+				1948B5E11B9DD13F002CE5D3 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1928973A1B6BDFC500C576C3 /* Project object */;
+}
